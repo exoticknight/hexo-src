@@ -8,12 +8,12 @@ subtitle: 年寿有时而尽，荣乐止乎其身，二者必至之常期，未�
 description:
 keywords: IT, frontend
 author: exoticknight
-language: 中文, English, 日本语
+language: zh-CN
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.e10t.net
+url: https://blog.e10t.net
 root: /
 permalink: :title/
 permalink_defaults:
@@ -41,7 +41,7 @@ future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Home page setting
@@ -87,3 +87,15 @@ search:
   field: post
   format: html
   limit: 10000
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: true
+
+sitemap:
+  path: sitemap.xml
+baidusitemap:
+  path: baidusitemap.xml
